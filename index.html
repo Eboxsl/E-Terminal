@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QJ9TR5T9S2"></script>
     <script>
@@ -13,23 +15,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nethindu Codes | Terminal</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="images/Elogo.png">
-  </head>
-  <body>
+    <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
+</head>
+<body>
     <div id="terminal">
-      <a id="before"></a>
+        <a id="before"></a>
     </div>
     <div id="command" onclick="$('texter').focus();">
-      <textarea type="text" id="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
-                   moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" autofocus=""></textarea>
+        <textarea type="text" id="texter" onkeyup="typeIt(this, event)" 
+                  onkeydown="typeIt(this, event); moveIt(this.value.length, event)" 
+                  onkeypress="typeIt(this, event);" autofocus=""></textarea>
         
-     <div id="liner">
-        <span id="typer"></span><b class="cursor" id="cursor">█</b>
-      </div>
+        <div id="liner">
+            <span id="typer"></span><b class="cursor" id="cursor">█</b>
+        </div>
     </div>
+
+    <!-- Link to Main Site -->
+    <a href="http://www.Nethindu.free.nf" target="_blank">
+        <button class="but">Main Site</button>
+    </a>
+
     <script src="js/caret.js"></script>
     <script src="js/commands.js"></script>
     <script src="js/main.js"></script>
-  
-
-</body></html>
+</body>
+</html>
