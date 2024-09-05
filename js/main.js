@@ -30,7 +30,7 @@ function enterKey(e) {
         
         // If the password is correct and Enter key is pressed
         if (pwd && e.keyCode == 13) {
-            loopLines(secret, "color2 margin", 120);
+            loopLines(pass, "color2 margin", 120);
             command.innerHTML = "";
             textarea.value = "";
             pwd = false;
@@ -109,7 +109,7 @@ function commander(cmd) {
             loopLines(social, "color2 margin", 80);
             break;
             
-        case "secret":
+        case "pass":
             liner.classList.add("password");
             pw = true;
             break;
